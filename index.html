@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>🎯 Goal Tracker ROI</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>🎯 Goal Tracker</h1>
+
+  <div class="input-container">
+    <input type="text" id="goalName" placeholder="Enter your goal (e.g., Study GRE)" />
+
+    <select id="goalType">
+      <option value="academic">📚 Academic</option>
+      <option value="fitness">🏋️ Fitness</option>
+      <option value="volunteering">💖 Volunteering</option>
+      <option value="creative">🎨 Creative</option>
+    </select>
+
+    <input type="number" id="timeSpent" placeholder="Time spent today (hours)" />
+
+    <button onclick="addTime()">Add Time</button>
+  </div>
+
+  <div id="output"></div>
+  <script src="script.js"></script>
+</body>
+</html>
